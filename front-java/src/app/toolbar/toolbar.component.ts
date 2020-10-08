@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {MenuItem} from 'primeng/api';
+import { faUserCircle } from '@fortawesome/free-regular-svg-icons';
 
 @Component({
   selector: 'app-toolbar',
@@ -8,6 +9,8 @@ import {MenuItem} from 'primeng/api';
 })
 export class ToolbarComponent implements OnInit {
   items: MenuItem[];
+  faUserCircle = faUserCircle;
+
 
   constructor() { }
 

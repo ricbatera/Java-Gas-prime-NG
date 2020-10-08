@@ -1,12 +1,14 @@
 <p-toolbar>
     <div class="p-toolbar-group-left">
         <img src="../../assets/img/logo-semfundo.png" height="50px" alt="Logo Java Gás">
-        <span>Início</span>
+        <span class="titulo-nav p-ml-6">Início</span>
+    </div>
+    <div class="data-atual p-ml-auto p-mr-auto">
+        Quinta Feira, 17 de Setembro de 2020
     </div>
 
-    <div class="p-toolbar-group-right">
-        <p-button icon="pi pi-search"></p-button>
-        <p-button icon="pi pi-calendar" styleClass="p-button-success"></p-button>
-        <p-button icon="pi pi-times" styleClass="p-button-danger"></p-button>
+    <div class="p-toolbar-group-right login-user">
+        <fa-icon [icon]="faUserCircle" class="tamanho-icone"></fa-icon>
+        <span class="p-ml-1">Ricardo Alves Roberto</span>
     </div>
 </p-toolbar>
