@@ -16,7 +16,7 @@ export class MenuLateralComponent {
 
   ngOnInit() {
     this.itensMenu = [
-      { label: 'Início', icon: 'pi pi-fw pi-home' },
+      { label: 'Início', icon: 'pi pi-fw pi-home', routerLink:'/home' },
       {
         label: 'Clientes', icon: 'pi pi-fw pi-users',
         items: [{ label: 'Novo Cliente' },
@@ -32,7 +32,7 @@ export class MenuLateralComponent {
       },
       {
         label: 'Funcionários', icon: 'pi pi-fw pi-user',
-        items:[{label:'Novo Funcionário'},{label:'Pesquisa Funcionário'}]
+        items:[{label:'Novo Funcionário', routerLink:'/cad-func'},{label:'Pesquisa Funcionário'}]
       },
       { label: 'Financeiro', icon: 'pi pi-fw pi-dollar' }
     ]

@@ -16,6 +16,11 @@ import { MenuLateralComponent } from './menu-lateral/menu-lateral.component';
 import { ConteudoComponent } from './conteudo/conteudo.component';
 import { Card1Component } from './conteudo/card1/card1.component';
 import { CartaoComponent } from './conteudo/cartao/cartao.component';
+import { Card2Component } from './conteudo/card2/card2.component';
+import { Cartao2Component } from './conteudo/cartao2/cartao2.component';
+import { Card3Component } from './conteudo/card3/card3.component';
+import { CadFuncComponent } from './cadastros/cad-func/cad-func.component';
+import { TelaInicialComponent } from './conteudo/tela-inicial/tela-inicial.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +29,12 @@ import { CartaoComponent } from './conteudo/cartao/cartao.component';
     MenuLateralComponent,
     ConteudoComponent,
     Card1Component,
-    CartaoComponent
+    CartaoComponent,
+    Card2Component,
+    Cartao2Component,
+    Card3Component,
+    CadFuncComponent,
+    TelaInicialComponent
   ],
   imports: [
     BrowserModule,
